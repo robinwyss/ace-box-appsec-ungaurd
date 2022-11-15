@@ -1,6 +1,5 @@
-# ace-box-sandbox-easytravel
-
-This ACE-BOX external use case is an example on how to get an easy sandbox running with EasyTravel deployed!
+# ace-box-appsec-ungaurd
+This ACE-BOX external use case deploys unguard.
 
 ## Components deployed
 
@@ -9,9 +8,7 @@ The following components get deployed:
 - microk8s
 - Dynatrace ActiveGate as a Private Synthetic Location
 - Dynatrace Operator with OneAgent and Kubernetes ActiveGates
-- Dynatrace Monaco CLI
-- EasyTravel demo application exposed via the Kubernetes Ingress Controller
-- Monitoring as Code configuration is applied
+- Unguard
 - Dashboard with predefined links
 
 ## Running the sandbox
