@@ -9,18 +9,7 @@
     name: dt-operator
 
 - include_role:
-    name: monaco
-
-- include_role:
-    name: app-easytravel
-
-- include_role:
-    name: app-easytravel
-    tasks_from: apply-monaco
-
-# - include_role:
-#     name: app-easytravel
-#     tasks_from: delete-monaco
+    name: app-unguard
 
 # Include and template use case specific values before installing Dashboard
 - set_fact:
